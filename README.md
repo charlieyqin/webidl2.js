@@ -339,26 +339,6 @@ The fields are as follows:
 * `typeExtAttrs`: A list of [extended attributes](#extended-attributes) that apply to the
 type rather than to the typedef as a whole.
 
-### Implements
-
-An implements definition looks like this:
-
-```JS
-{
-  "type": "implements",
-  "target": "Node",
-  "implements": "EventTarget",
-  "extAttrs": []
-}
-```
-
-The fields are as follows:
-
-* `type`: Always "implements".
-* `target`: The interface that implements another.
-* `implements`: The interface that is being implemented by the target.
-* `extAttrs`: A list of [extended attributes](#extended-attributes).
-
 ### Includes
 
 An includes definition looks like this:
